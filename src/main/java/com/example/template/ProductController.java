@@ -23,7 +23,7 @@ public class ProductController {
     }
     
     @GetMapping("/products/{productId}")
-    Product productStockCheck(@PathVariable(value = "productId") Long productId) {
+    Product productStockCheck2(@PathVariable(value = "productId") Long productId) {
 
         System.out.println("productStockCheck call");
         try {
